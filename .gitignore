@@ -1,0 +1,24 @@
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+pip-log.txt
+.env
+
+# === TORCS / Simulador ===
+# Ignorar logs de telemetría y resultados de carreras
+*.log
+*.csv
+*.xml
+*.png
+*.jpg
+*.jpeg
+
+# === Pesos de la IA ===
+# Descomentar la siguiente línea si usas modelos de más de 100MB
+# *.pth
+# *.h5
